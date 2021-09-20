@@ -1,3 +1,13 @@
+:root {
+  --color-darkblue: hsl(209, 23%, 22%);
+  --color-verydarkblue-bg: hsl(207, 26%, 17%);
+  --color-verydarkblue-text: hsl(200, 15%, 8%);
+  --color-darkgray-input: hsl(0, 0%, 52%);
+  --color-verylightgray-bg: hsl(0, 0%, 98%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
